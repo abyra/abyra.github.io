@@ -1,0 +1,9 @@
+{
+  "name": "abyra.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:abyra/abyra.github.io.git",
+  "scripts": {
+    "start": "jekyll serve"
+  }
+}

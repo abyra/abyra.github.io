@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+{% include head.html %}
+
+<body>
+    <div class="abyra mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        {% include header.html %}
+        <main class="mdl-layout__content">
+            <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp max-width">
+                
+                {{content}}
+                {% include footer.html %}
+            
+            </div>          
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.0.6/material.min.js"></script>
+</body>
+
+</html>
+
+

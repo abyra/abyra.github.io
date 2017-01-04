@@ -1,0 +1,134 @@
+---
+---
+
+body {
+	background-image: url(images/bg.png);
+}
+
+
+.abyra {
+
+	.max-width {
+		max-width: 900px;
+  		margin: auto;
+	}
+	
+	.mdl-layout__content {
+		margin-bottom: 15px;
+	}
+
+	.mdl-layout__header-row {
+		padding: 0;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		
+		.logo-image {
+			height: 59px;
+			padding-top: 10px;
+			padding-bottom: 10px;		
+		}
+	}
+
+	.mdl-layout__header {
+		background-color: #fff;
+		margin-bottom: 10px;
+
+		.mdl-navigation__link {
+			text-transform: uppercase;
+		}
+	}
+
+	.mdl-mini-footer {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+
+	.mdl-card {
+  		display: -webkit-box;
+  		display: -ms-flexbox;
+  		display: flex;
+  		-webkit-box-orient: vertical;
+  		-webkit-box-direction: normal;
+  		    -ms-flex-direction: column;
+  		        flex-direction: column;
+  		-webkit-box-align: stretch;
+  		    -ms-flex-align: stretch;
+  		        align-items: stretch;
+  		min-height: 360px;
+	}
+
+	.index-page {
+		.mdl-card__media {
+			background-image: url('images/team_adriansson.jpg');
+			height: 480px;
+			background-color: #c4c4c2;
+			box-sizing: border-box;
+			background-size: cover;
+			padding: 24px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-flex: 1;
+			    -ms-flex-positive: 1;
+			        flex-grow: 1;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			-webkit-box-align: end;
+			    -ms-flex-align: end;
+			        align-items: flex-end;
+			
+				h3 {
+				margin: 0;
+			}
+		}
+
+		.two-column-layout {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-pack: distribute;
+			    justify-content: space-around;
+    		-webkit-box-orient: horizontal;
+    		-webkit-box-direction: normal;
+    		    -ms-flex-direction: row;
+    		        flex-direction: row;
+		}
+	}
+}
+
+.flip {
+  display: inline-block;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: FlipH;
+          filter: FlipH;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.img-rounded {
+	border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.center-self {
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+}
+
+.margin-right--15 {
+	margin-right: 15px;
+}
+
+
+
+
+
