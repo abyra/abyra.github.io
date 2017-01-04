@@ -12,6 +12,16 @@ body {
 		max-width: 900px;
   		margin: auto;
 	}
+
+	.mdl-mini-footer {
+		.contact__link {
+			text-decoration: none;	
+		}
+
+		.material-icons {
+			vertical-align: bottom;
+		}
+	}
 	
 	.mdl-layout__content {
 		margin-bottom: 15px;
