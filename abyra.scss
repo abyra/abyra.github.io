@@ -61,6 +61,27 @@ body {
   		    -ms-flex-align: stretch;
   		        align-items: stretch;
   		min-height: 360px;
+		
+		.mdl-card__media {
+			padding: 24px;
+			box-sizing: border-box;
+			background-size: cover;
+			min-height: 160px;
+			-webkit-box-align: end;
+			    -ms-flex-align: end;
+			        align-items: flex-end;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+	        -webkit-box-orient: horizontal;
+	        -webkit-box-direction: normal;
+	            -ms-flex-direction: row;
+	                flex-direction: row;
+
+			h3 {
+				margin: 0;
+			}	
+		}
 	}
 
 	.index-page {
@@ -85,23 +106,25 @@ body {
 			    -ms-flex-align: end;
 			        align-items: flex-end;
 			
-				h3 {
+			h3 {
 				margin: 0;
 			}
 		}
 
-		.two-column-layout {
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			-ms-flex-pack: distribute;
-			    justify-content: space-around;
-    		-webkit-box-orient: horizontal;
-    		-webkit-box-direction: normal;
-    		    -ms-flex-direction: row;
-    		        flex-direction: row;
-		}
 	}
+}
+
+.two-column-layout {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+   		        
 }
 
 .flip {
