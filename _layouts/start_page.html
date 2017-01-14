@@ -4,17 +4,17 @@ layout: default
 
 <div class="index-page">
 
-    <div class="mdl-card__media mdl-color-text--grey-50">
-        <h3>
-            <span class="flip uppercase">{{page.heading}}</span>
-        </h3>
-    </div>
+    <h1 class="page-title" style="background-image: url('{{page.image}}')">
+        <span class="flip" data-toggle="tooltip" data-placement="bottom" title="{{page.heading}}">{{page.heading}}</span>
+    </h1>
 
-    <div class="two-column-layout">
+    <div class="row vcenter">
 
-        <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+        <div class="col-md-10">
             {{content}}
         </div>
-        <img class="img-rounded center-self margin-right--15" src="{{page.image_small}}" alt="">
+        <div class="col-md-2">
+            <img class="img-circle img-responsive" src="{{page.image_small}}" alt="">
+        </div>
     </div>
 </div>

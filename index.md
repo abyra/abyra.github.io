@@ -2,6 +2,7 @@
 layout: start_page
 heading: "Nya Perspektiv"
 image_small: "https://source.unsplash.com/mnFGmGiuupw"
+image: "images/team_adriansson.jpg"
 ---
 
 Att ligga i framkant i en ständigt föränderlig bransch kräver ständigt nya infallsvinklar, kreativitet och innovationsförmåga. En bra advokat söker lösningar utanför den traditionella boxen och löser problem utan bundenhet till gamla vanor.
