@@ -107,6 +107,7 @@ a>.material-icons {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    
     .body {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -123,6 +124,9 @@ a>.material-icons {
         }
         img {
             margin-left: auto;
+            -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+                align-self: center;
         }
     }
     h2 {
