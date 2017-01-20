@@ -1,19 +1,20 @@
 ---
 layout: default
 ---
-<div>
+<div class="card page">
 
-    <h1 class="page-title" style="background-image: url('{{page.image}}')">
-        <span data-toggle="tooltip" data-placement="bottom" title="{{page.heading}}">{{page.heading}}</span>
-    </h1>
+	<h1 class="page-title" style="background-image: url('{{page.image}}')">
+		<span 
+			data-container="body" data-toggle="popover" data-placement="bottom" data-content="{{page.heading}}">
+				{{page.heading}}
+		</span>
+	</h1>
 
-     <div class="row vcenter">
+	<div class="body">
+		<div class="summary">
+			{{content}}
+		</div>
+		<img class="img-circle" src="{{page.image_small}}" alt="">
+	</div>
 
-        <div class="col-md-9">
-            {{content}}
-        </div>
-        <div class="col-md-2 col-md-offset-1">
-            <img class="img-circle" src="{{page.image_small}}" alt="">
-        </div>
-    </div>
 </div>

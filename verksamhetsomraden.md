@@ -3,6 +3,28 @@ layout: two_column
 heading: "Verksamhetsområden"
 image_small: "https://source.unsplash.com/YjVa-F9P9kk"
 image: "/images/redtie.jpg"
+summary: "
+Våra specialområden är följande:
+
+
+- **Allmän affärsjuridik**
+
+- **Avtalsrätt**
+
+- **Bygg & Entreprenad**
+
+- **Fastighetsrätt**
+
+- **Familjerätt**
+
+- **Hästjuridik**
+
+- **Processrätt**
+
+- **Fordringsrätt**
+
+- **Tvistlösning**
+"
 ---
 
 Vi är en ung, modern och kompetent advokatbyrå med en bred kunskapsbas och med stor erfarenhet inom våra specialområden. Vi erbjuder kvalificerad juridisk rådgivning till såväl företag som privatpersoner. Vi har ett prestigelöst arbetssätt och tillsammans kompletterar vi varandra väl, såväl professionellt som personligt.
