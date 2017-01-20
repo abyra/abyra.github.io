@@ -5,7 +5,10 @@ layout: default
 <div class="index-page">
 
     <h1 class="page-title" style="background-image: url('{{page.image}}')">
-        <span class="flip" data-toggle="tooltip" data-placement="bottom" title="{{page.heading}}">{{page.heading}}</span>
+        <span class="flip" 
+            data-container="body" data-toggle="popover" data-placement="bottom" data-content="{{page.heading}}">
+                {{page.heading}}
+            </span>
     </h1>
 
     <div class="row vcenter">
