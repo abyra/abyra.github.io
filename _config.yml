@@ -2,6 +2,8 @@ title: "Adriansson Advokatbyrå"
 description: "Adriansson Advokatbyrå AB"
 phone: "+46 (0)18 34-14-00"
 baseurl: ""
+collections:
+- medarbetare
 exclude: [
 	"node_modules",
 	"Gemfile",
