@@ -9,7 +9,7 @@ image: "bg.jpg"
 		<h1 class="page-title" style="background-image: url('{{page.image}}')">
 			<span
 				data-container="body" data-toggle="popover" data-placement="bottom" data-content="{{page.heading}}">
-					{{page.heading}}
+					{{page.heading | upcase}}
 			</span>
 		</h1>
 	
@@ -18,12 +18,15 @@ image: "bg.jpg"
 		{% for person in persons %}
 	
 			<li class="person">
-				<img src="{{person.slug}}.jpg" alt="{{person.title}}" />
-				<div class="content">
+				<img class="person" src="{{person.slug}}.jpg" alt="{{person.title}}" />
+				<div class="intro">
 					<h3>{{person.title | upcase }}</h3>
 					<p class="roles">{{ person.roles | join: ', ' }}</p>
-					<span><a href="mailto:{{person.email}}"><i class="material-icons md-16">email</i>{{person.email}}</a></span>
-					<span><a href="tel://+46{{person.phone}}"><i class="material-icons md-16">phone</i>{{person.phone_display}}</a></span>
+					<p><a href="mailto:{{person.email}}"><i class="material-icons md-16">email</i>{{person.email}}</a></p>
+					<p><a href="tel://+46{{person.phone}}"><i class="material-icons md-16">phone</i>{{person.phone_display}}</a></p>
+					
+				</div>
+				<div class="content">
 					{{ person.content | markdownify }}
 				</div>
 			</li>

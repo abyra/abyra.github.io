@@ -95,6 +95,7 @@ footer.footer {
 
 a>.material-icons {
     vertical-align: middle;
+    padding-right: 5px;
 }
 
 .columns {
@@ -173,24 +174,70 @@ a>.material-icons {
 
     li.person {
         @extend .flex;
-        margin-bottom: 30px;   
+        margin-bottom: 50px;  
 
-        .content {
+        img.person {
+            align-self: flex-start;
+            max-width: 428px;
+        } 
+
+        .intro {
             @extend .columns;
-            margin-left: 15px;
+            margin-left: 20px;
+            min-width: 300px;
 
             h3 {
-                margin-top: 0px;
+                margin-top: 0;
+                margin-bottom: 0;
                 text-transform: uppercase;
             }
 
             .roles {
                 font-style: italic;
+                margin-top:2px;
             }
+        }
 
+        .content {
+            margin-left: 20px;
+            align-self: center;
+            
             ul {
                 padding-left: 0;
                 list-style: none;
+                margin-top: 10px;
+
+                li {
+                    
+                    &:before {
+                        font-family: 'Material Icons';
+                        font-weight: normal;
+                        font-style: normal;
+                        font-size: 24px;  /* Preferred icon size */
+                        display: inline-block;
+                        line-height: 1;
+                        text-transform: none;
+                        letter-spacing: normal;
+                        word-wrap: normal;
+                        white-space: nowrap;
+                        direction: ltr;
+
+                        /* Support for all WebKit browsers. */
+                        -webkit-font-smoothing: antialiased;
+                        /* Support for Safari and Chrome. */
+                        text-rendering: optimizeLegibility;
+
+                        /* Support for Firefox. */
+                        -moz-osx-font-smoothing: grayscale;
+
+                        /* Support for IE. */
+                        font-feature-settings: 'liga';
+                        content: 'label';
+
+                        padding-right: 5px;
+                        vertical-align: middle;
+                    }
+                }
             }
         } 
     }
