@@ -1,6 +1,8 @@
 title: "Adriansson Advokatbyrå"
 description: "Adriansson Advokatbyrå AB"
-phone: "+46 (0)18 34-14-00"
+phone: "+4618341400"
+phone_display: "+46 (0)18 34-14-00"
+email: "info@abyra.se"
 baseurl: ""
 collections:
 - medarbetare

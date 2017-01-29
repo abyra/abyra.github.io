@@ -66,7 +66,7 @@ footer.footer {
     border-color: #665;
 }
 
-.flex {
+.flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -173,7 +173,7 @@ a>.material-icons {
     }
 
     li.person {
-        @extend .flex;
+        @extend .flex-container;
         margin-bottom: 50px;  
 
         img.person {
@@ -254,9 +254,19 @@ a>.material-icons {
 }
 
 .contact-page {
+    @extend .card;
+
     h1.page-title {
         color: #665;
         height: 200px;
+    }
+
+    .maps {
+        @extend .flex-container;
+
+        > * + * {
+            margin-left: 3rem;
+        }
     }
 }
 
