@@ -4,7 +4,7 @@
 		<div class="summary">
 			{{ page.summary | markdownify }}
 		</div>
-		<img class="img-circle" src="{{page.image_small}}" alt="">
+		<img class="img-circle" src="{{ page.image_small | prepend: page.url }}" alt="">
 	</div>
 	<div class="footer">
 		<a href="{{page.url}}">Läs mer<i class="material-icons md-16">navigate_next</i></a>

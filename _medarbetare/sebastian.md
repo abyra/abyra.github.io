@@ -1,5 +1,5 @@
 ---
-title: SEBASTIAN LÄNDIN
+title: Sebastian Ländin
 email: sebastian@abyra.se
 phone: 706000406
 phone_display: +46 (0) 70-600 04 06

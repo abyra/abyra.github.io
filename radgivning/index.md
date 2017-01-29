@@ -1,8 +1,8 @@
 ---
 layout: two_column
 heading: "Rådgivning"
-image_small: "https://source.unsplash.com/5fNmWej4tAA"
-image: "/images/radgivning.jpg"
+image_small: "small.jpg"
+image: "bg.jpg"
 summary: "
 > Till oss är du alltid välkommen att höra av dig. Den första kontakten kostar ingenting. Du kan anlita oss för såväl juridisk konsultation som biträde vid tvister och avtalsförhandlingar.
 "

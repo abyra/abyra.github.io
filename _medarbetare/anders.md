@@ -1,5 +1,5 @@
 ---
-title: ANDERS ADRIANSSON
+title: Anders Adriansson
 email: anders@abyra.se
 phone: 706673857
 phone_display: +46 (0) 70- 667 38 57

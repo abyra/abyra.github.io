@@ -1,8 +1,8 @@
 ---
 layout: two_column
 heading: "Verksamhetsområden"
-image_small: "https://source.unsplash.com/YjVa-F9P9kk"
-image: "/images/redtie.jpg"
+image_small: "small.jpg"
+image: "bg.jpg"
 summary: "
 Våra specialområden är följande:
 

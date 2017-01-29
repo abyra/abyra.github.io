@@ -1,7 +1,7 @@
 ---
 layout: default
 heading: "Medarbetare"
-image: "images/medarbetare.jpg"
+image: "bg.jpg"
 ---
 
 
@@ -18,9 +18,9 @@ image: "images/medarbetare.jpg"
 		{% for person in persons %}
 	
 			<li class="person">
-				<img src="images/medarbetare/{{person.slug}}.jpg" alt="{{person.title}}" />
+				<img src="{{person.slug}}.jpg" alt="{{person.title}}" />
 				<div class="content">
-					<h3>{{person.title}}</h3>
+					<h3>{{person.title | upcase }}</h3>
 					<p class="roles">{{ person.roles | join: ', ' }}</p>
 					<span><a href="mailto:{{person.email}}"><i class="material-icons md-16">email</i>{{person.email}}</a></span>
 					<span><a href="tel://+46{{person.phone}}"><i class="material-icons md-16">phone</i>{{person.phone_display}}</a></span>
