@@ -6,16 +6,27 @@ email: "info@abyra.se"
 baseurl: ""
 collections:
 - medarbetare
+navigation:
+- text: Hem
+  url: /
+- text: Verksamhetsområden
+  url: /verksamhetsomraden/
+- text: Rådgivning
+  url: /radgivning/
+- text: Medarbetare
+  url: /medarbetare/
+- text: Kontakt
+  url: /kontakt/
 exclude: [
-	"node_modules",
-	"Gemfile",
-	"Gemfile.lock",
-	"package.json",
-	"CNAME",
-	"README.md",
-	"LICENSE",
-	".gitignore",
-	".vscode",
-	"browserlist"
+    "node_modules",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "CNAME",
+    "README.md",
+    "LICENSE",
+    ".gitignore",
+    ".vscode",
+    "browserlist"
 ]
 

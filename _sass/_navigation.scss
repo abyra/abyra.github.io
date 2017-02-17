@@ -1,0 +1,31 @@
+ul.nav-links {
+    > *+* {
+        margin-left: 10px;
+    }
+
+    & li {
+        a,
+        a:hover {
+            text-decoration: none;
+            font-size: 1.6rem;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+        }
+        a {
+            color: #777;
+            border-bottom: 2px solid transparent;
+            &:hover {
+                border-bottom: 2px solid #c4c4c4;
+                color: #000;
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2)
+            }
+        }
+        &.active {
+            a {
+                border-color: rgb(52, 54, 58);
+            }
+        }
+    }
+}
