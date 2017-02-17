@@ -80,12 +80,10 @@ footer.footer {
     flex-wrap: nowrap;
 }
 
-.flip {
+.perspective {
     display: inline-block;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    -webkit-filter: FlipH;
-    filter: FlipH;
+    -webkit-transform: rotateY(180deg) rotateX(180deg);
+            transform: rotateY(180deg) rotateX(180deg);
 }
 
 .img-circle {
