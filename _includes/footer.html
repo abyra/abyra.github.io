@@ -1,6 +1,10 @@
 <footer class="footer">
-    <div class="container text-center">
-        <i class="material-icons">copyright</i>{{ site.description }}
+    <div class="flex-container flex-column align-items-center"
+    data-toggle="popover" 
+    data-placement="top" 
+    title="Kontakta oss"
+    data-content="{{site.phone_display}}">
+        <strong><i class="material-icons">copyright</i>{{ site.description }}</strong>
         <p class="text-muted">
             <a href="tel://{{ site.phone }}">
                 <i class="material-icons">contact_phone</i> {{ site.phone_display }}
