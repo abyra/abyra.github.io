@@ -11,8 +11,8 @@ navigation:
   url: /
 - text: Verksamhetsområden
   url: /verksamhetsomraden/
-- text: Rådgivning
-  url: /radgivning/
+- text: Aktuellt
+  url: /aktuellt/
 - text: Medarbetare
   url: /medarbetare/
 - text: Kontakt

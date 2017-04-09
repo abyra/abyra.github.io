@@ -1,6 +1,6 @@
 ---
 layout: two_column
-heading: "Rådgivning"
+heading: "Aktuellt"
 image_small: "small.jpg"
 image: "bg.jpg"
 summary: "
