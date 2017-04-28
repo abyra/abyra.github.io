@@ -37,10 +37,9 @@ image: "/images/team_adriansson.jpg"
 	</div>
 
 	{% for page in site.pages %}
-		{% if page.name contains ".html" or page.name contains ".scss" %}
-			{% continue %}
-		{% endif %}
+		{% if page.summary %}
 			{% include card.html page=page %}
+		{% endif %}			
 	{% endfor %}
 
 </div>
