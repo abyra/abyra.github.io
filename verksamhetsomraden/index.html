@@ -1,0 +1,27 @@
+---
+layout: two_column
+heading: "Verksamhetsområden"
+image: "bg.jpg"
+image_small: "small.jpg"
+---
+
+<p>
+	Vi är en ung, modern och kompetent advokatbyrå med en bred kunskapsbas och med stor erfarenhet inom våra specialområden. Vi erbjuder kvalificerad juridisk rådgivning till såväl företag som privatpersoner. Vi har ett prestigelöst arbetssätt och tillsammans kompletterar vi varandra väl, såväl professionellt som personligt.
+</p>
+<p>
+	Våra specialområden är följande:
+</p>
+
+<ul class="list-unstyled">
+	{% assign areas = site.data.business_areas | where: "show_on_page", true %}
+	{% for area in areas %}
+		<li class="list-item--label">
+			{% include business_area.html area=area %}
+		</li>
+
+	{% endfor %}
+</ul>
+
+<p>
+	Vi anser att delad kunskap också är en kostnadseffektiv och viktig väg till framgång. Vi arbetar därför i stor utsträckning som ett team för att våra klienter skall få ta del av advokatbyråns och dess kontaktnäts samlade kunskap.
+</p>

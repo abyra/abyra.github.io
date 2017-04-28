@@ -28,9 +28,10 @@ image: "bg.jpg"
 				</div>
 				<div class="business-areas">
 					<ul class="list-unstyled">
-						{% for area in person.business_areas %}							
+						{% for area in person.business_areas %}
+							{% assign business_area = site.data.business_areas[area] %}						
 							<li>								
-								{% include business_area.html area=area %}
+								{% include business_area.html area=business_area %}
 							</li>
 						{% endfor %}
 					</ul>
