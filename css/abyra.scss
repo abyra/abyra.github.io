@@ -99,6 +99,10 @@ footer {
     width: 160px;
 }
 
+.btn-business-area {
+    padding: 0;
+}
+
 * > .material-icons {
     vertical-align: middle;
     padding-right: 5px;
@@ -205,7 +209,7 @@ footer {
             }
         }
 
-        .content {
+        .business-areas {
             margin-left: 20px;
             -ms-flex-item-align: center;
                 -ms-grid-row-align: center;

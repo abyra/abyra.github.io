@@ -7,11 +7,10 @@ roles:
     - Advokat
     - Partner
 sort_order: 2
+business_areas:
+    - business_law
+    - contract_law
+    - claims
+    - construction
+    - dispute_resolution_and_litigation
 ---
-
-+ Allmän affärsjuridik
-+ Avtalsrätt
-+ Fordringsrätt
-+ Bygg & Entreprenad
-+ Processrätt
-+ Tvistlösning

@@ -4,6 +4,12 @@
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
-        $('[data-toggle="popover"]').popover({trigger: 'hover'})
+        $('[data-toggle="popover"]').popover({
+            trigger: 'focus click hover',
+            delay: {
+                "show": 500, 
+                "hide": 100 
+            }
+        })
     })
 </script>

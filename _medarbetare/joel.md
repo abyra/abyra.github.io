@@ -6,10 +6,11 @@ phone_display: +46 (0) 73-724 06 55
 roles: 
     - Biträdande Jurist    
 sort_order: 4
+business_areas:
+    - business_law
+    - contract_law
+    - construction
+    - property_law
+    - dispute_resolution_and_litigation
+    - api_related_law
 ---
-
-+ Allmän affärsjuridik
-+ Avtalsrätt
-+ Bygg & Entreprenad
-+ Fastighetsrätt
-+ API-relaterad juridik

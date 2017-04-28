@@ -26,8 +26,14 @@ image: "bg.jpg"
 					<p><a href="tel://+46{{person.phone}}"><i class="material-icons md-16">phone</i>{{person.phone_display}}</a></p>
 					
 				</div>
-				<div class="content">
-					{{ person.content | markdownify }}
+				<div class="business-areas">
+					<ul class="list-unstyled">
+						{% for area in person.business_areas %}							
+							<li>								
+								{% include business_area.html area=area %}
+							</li>
+						{% endfor %}
+					</ul>
 				</div>
 			</li>
 	

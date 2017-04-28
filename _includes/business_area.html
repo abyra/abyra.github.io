@@ -1,0 +1,15 @@
+{% assign business_area = site.data.business_areas[include.area] %}
+
+{% if business_area.long_description %} 
+    <button type="button" class="btn btn-link btn-business-area" 
+        title="{{ business_area.short_description }}" 
+        data-placement="right" 
+        data-content="{{ business_area.long_description }}"
+        data-toggle="popover">
+            {{ business_area.short_description }}
+    </button>
+{% else %}
+    <button type="button" class="btn btn-link btn-business-area">
+        {{ business_area.short_description }}
+    </button>
+{% endif %}
