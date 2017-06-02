@@ -193,11 +193,18 @@ footer {
         @extend .flex-container;
         margin-bottom: 50px;  
 
-        img.person {
+        .photo {
             -ms-flex-item-align: start;
                 align-self: flex-start;
-            max-width: 428px;
-        } 
+            
+            min-width: 430px;
+
+            img {           
+                max-width: 428px;
+                max-height: 198px;
+                border-radius: 3px;
+            } 
+        }        
 
         .intro {
             @extend .columns;

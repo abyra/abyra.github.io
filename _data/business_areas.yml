@@ -49,3 +49,7 @@ api_related_law:
 counsel:    
     short_description: "Målsägandebiträde"
     long_description: "Om du har utsatts för brott har du ofta rätt till ett målsägandebiträde. Målsägandebiträdets roll är att se till att du som brottsoffer får till rätt tillvaratagen på bästa sätt. Du kan också begära att få ett målsägandebiträde redan i samband med att du anmäler ett brott. Har du blivit utsatt för ett brott är du välkommen att kontakta Jeanette Jacobsson, så hjälper hon dig."
+
+insolvency:
+    short_description: "Obeståndsjuridik"
+    long_description: "..."

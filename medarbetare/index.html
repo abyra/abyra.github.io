@@ -18,7 +18,9 @@ image: "bg.jpg"
 		{% for person in persons %}
 	
 			<li class="person">
-				<img class="person" src="{{person.slug}}.jpg" alt="{{person.title}}" />
+				<div class="photo">
+					<img src="{{person.slug}}.jpg" alt="{{person.title}}" />
+				</div>				
 				<div class="intro">
 					<h3>{{person.title | upcase }}</h3>
 					<p class="roles">{{ person.roles | join: ', ' }}</p>
