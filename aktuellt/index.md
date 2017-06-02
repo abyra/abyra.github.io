@@ -1,8 +1,8 @@
 ---
 layout: two_column
 heading: "Aktuellt"
-image_small: "small.jpg"
-image: "bg.jpg"
+image_small: "http://res.cloudinary.com/abyra-se/image/upload/c_fill,h_160,w_160/hemsida/aktuellt_small.jpg"
+image: "http://res.cloudinary.com/abyra-se/image/upload/hemsida/aktuellt.jpg"
 summary: "
 > Till oss är du alltid välkommen att höra av dig. Den första kontakten kostar ingenting. Du kan anlita oss för såväl juridisk konsultation som biträde vid tvister och avtalsförhandlingar.
 "
